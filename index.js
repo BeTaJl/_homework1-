@@ -10,7 +10,9 @@ myTitle.textContent = "Домашнє завдання №1"
 const newMainTable__header = document.querySelector(".mainTable__header")
 newMainTable__header.innerText = 'Допомога дитячому будинку';
 
-const content = document.querySelector('.mainTable__content');
-const imageWidth = document.querySelector('.mainTable__image');
+/*const content = document.querySelector('.mainTable__content');
+const imageWidth = document.querySelector('.mainTable__image img');
 
-content.style.width = imageWidth.offsetWidth + 'px';
+content.style.width = imageWidth.offsetWidth + 'px';*/
+
+document.querySelector('.mainTable__content').style.width = document.querySelector('.mainTable__image img').offsetWidth + 'px';

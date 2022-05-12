@@ -1,0 +1,14 @@
+.mainTable { width: 100%;}
+.mainTable td, .mainTable th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.mainTable__image {width: 300px;}
+img {
+  width: 300px;
+}
+
+
+.mainTable__header {}
+.mainTable__content {}
